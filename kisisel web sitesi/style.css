@@ -1,0 +1,54 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background: url(resimB.png);
+    background-size: cover;
+    background: steelblue;
+}
+.box {
+    width: 400px;
+    background: seagreen;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+
+}
+.box img {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box img:hover {
+    background: white;
+    transform: scale(0.8);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100px;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100px;
+    letter-spacing: 4px;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 50px;
+    list-style: none;
+}
+ul li a{
+    color: aliceblue;
+    transition: all ease-in-out 250ms;
+
+}
